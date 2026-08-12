@@ -1,0 +1,13 @@
+*.exe
+*.o
+*.obj
+*.out
+*.class
+*.log
+.vscode/
+.idea/
+bin/
+Debug/
+Release/
+x64/
+x86/
