@@ -6,7 +6,8 @@ int main()
     cout << "Enter marks for three subjects: ";
     cin >> m1 >> m2 >> m3;
     int total = m1 + m2 + m3;
-    switch(total / 3)
+    int percentage = (total / 300.0) * 100;
+    switch(percentage / 10)
     {
         case 10:
         case 9:
