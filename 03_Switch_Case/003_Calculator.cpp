@@ -6,6 +6,10 @@ int main()
     cout << "Enter two numbers: ";
     cin >> a >> b;
     cout << "Enter your choice (1-4): ";
+    cout<< "1. Addition\n";
+    cout<< "2. Subtraction\n";
+    cout<< "3. Multiplication\n";
+    cout<< "4. Division\n";
     cin >> choice;
 
     switch(choice)
