@@ -6,7 +6,7 @@ int main()
     int base=3;
     for(int i=1; i<=3; i++)
     {
-        int result= round(pow(base,i));
+        int result= pow(base,i);
         cout<< " "<<result;
     }
 }
